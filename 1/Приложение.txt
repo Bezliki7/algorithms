@@ -1,0 +1,378 @@
+1) OpenWeatherMap: 
+{
+  "coord": {
+    "lon": 37.6156,
+    "lat": 55.7522
+  },
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "пасмурно",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 1.3,
+    "feels_like": -1.78,        
+    "temp_min": 1.24,
+    "temp_max": 1.3,
+    "pressure": 997,
+    "humidity": 95,
+    "sea_level": 997,
+    "grnd_level": 977
+  },
+  "visibility": 30,
+  "wind": {
+    "speed": 2.82,
+    "deg": 182,
+    "gust": 8.04
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1770987097,
+  "sys": {
+    "type": 2,
+    "id": 2094500,
+    "country": "RU",
+    "sunrise": 1770958767,
+    "sunset": 1770992896
+  },
+  "timezone": 10800,
+  "id": 524901,
+  "name": "Москва",
+  "cod": 200
+}
+
+
+2) Visual Crossing
+{
+  "queryCost": 1,
+  "latitude": 55.757,
+  "longitude": 37.615,
+  "resolvedAddress": "Москва, Центральный федеральный округ, Россия",
+  "address": "Москва",
+  "timezone": "Europe/Moscow",
+  "tzoffset": 3,
+  "days": [
+    {
+      "datetime": "2026-02-13",
+      "datetimeEpoch": 1770930000,
+      "tempmax": 1.2,
+      "tempmin": -2.9,
+      "temp": -0.4,
+      "feelslikemax": 1,
+      "feelslikemin": -7.2,
+      "feelslike": -3.4,
+      "dew": -0.9,
+      "humidity": 96.1,
+      "precip": 5.9,
+      "precipprob": 100,
+      "precipcover": 83.33,
+      "preciptype": [
+        "rain",
+        "snow"
+      ],
+      "snow": 2.3,
+      "snowdepth": 49.5,
+      "windgust": 32.4,
+      "windspeed": 11.7,
+      "winddir": 150.9,
+      "pressure": 994.3,
+      "cloudcover": 99.1,
+      "visibility": 2.9,
+      "solarradiation": 5.6,
+      "solarenergy": 0.6,
+      "uvindex": 0,
+      "severerisk": 10,
+      "sunrise": "07:59:00",
+      "sunriseEpoch": 1770958740,
+      "sunset": "17:29:29",
+      "sunsetEpoch": 1770992969,
+      "moonphase": 0.87,
+      "conditions": "Снег, Дождь, Пасмурная погода",
+      "description": "Облачно в течение всего дня, вероятностью дождя или снега",
+      "icon": "snow",
+      "stations": [
+        "UUBW",
+        "UUWW",
+        "UUEE",
+        "UUDD"
+      ],
+      "source": "comb"
+    }
+  ],
+  "stations": {
+    "UUBW": {
+      "distance": 40743,
+      "latitude": 55.55,
+      "longitude": 38.15,
+      "useCount": 0,
+      "id": "UUBW",
+      "name": "UUBW",
+      "quality": 50,
+      "contribution": 0
+    },
+    "UUWW": {
+      "distance": 24702,
+      "latitude": 55.65,
+      "longitude": 37.27,
+      "useCount": 0,
+      "id": "UUWW",
+      "name": "UUWW",
+      "quality": 50,
+      "contribution": 0
+    },
+    "UUEE": {
+      "distance": 26657,
+      "latitude": 55.97,
+      "longitude": 37.42,
+      "useCount": 0,
+      "id": "UUEE",
+      "name": "UUEE",
+      "quality": 50,
+      "contribution": 0
+    },
+    "UUDD": {
+      "distance": 43600,
+      "latitude": 55.4,
+      "longitude": 37.9,
+      "useCount": 0,
+      "id": "UUDD",
+      "name": "UUDD",
+      "quality": 50,
+      "contribution": 0
+    },
+    "E8051": {
+      "distance": 7364,
+      "latitude": 55.704,
+      "longitude": 37.686,
+      "useCount": 0,
+      "id": "E8051",
+      "name": "EW8051 Moscow RU",
+      "quality": 0,
+      "contribution": 0
+    }
+  },
+  "currentConditions": {
+    "datetime": "15:25:00",
+    "datetimeEpoch": 1770985500,
+    "temp": 2.5,
+    "feelslike": 2.5,
+    "humidity": 87.5,
+    "dew": 0.6,
+    "precip": 0,
+    "precipprob": 0,
+    "snow": 0,
+    "snowdepth": 0,
+    "preciptype": null,
+    "windgust": 1.4,
+    "windspeed": 1.3,
+    "winddir": 171,
+    "pressure": 995,
+    "visibility": 3,
+    "cloudcover": 100,
+    "solarradiation": 25,
+    "solarenergy": 0.1,
+    "uvindex": 0,
+    "conditions": "Пасмурная погода",
+    "icon": "cloudy",
+    "stations": [
+      "UUWW",
+      "UUEE",
+      "E8051"
+    ],
+    "source": "obs",
+    "sunrise": "07:59:00",
+    "sunriseEpoch": 1770958740,
+    "sunset": "17:29:29",
+    "sunsetEpoch": 1770992969,
+    "moonphase": 0.87
+  }
+}
+
+3) {
+  "request": {
+    "type": "City",
+    "query": "Москва, Россия",
+    "language": "en",
+    "unit": "m"
+  },
+  "location": {
+    "name": "Москва",
+    "country": "Россия",
+    "region": "Moscow City",
+    "lat": "55.752",
+    "lon": "37.616",
+    "timezone_id": "Europe/Moscow",
+    "localtime": "2026-02-13 15:54",
+    "localtime_epoch": 1770998040,
+    "utc_offset": "3.0"
+  },
+  "current": {
+    "observation_time": "12:54 PM",
+    "temperature": 1,
+    "weather_code": 296,
+    "weather_icons": [
+      "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png"
+    ],
+    "weather_descriptions": [
+      "Light Rain, Mist"
+    ],
+    "astro": {
+      "sunrise": "07:59 AM",
+      "sunset": "05:30 PM",
+      "moonrise": "06:44 AM",
+      "moonset": "12:00 PM",
+      "moon_phase": "Waning Crescent",
+      "moon_illumination": 19
+    },
+    "air_quality": {
+      "co": "852.85",
+      "no2": "85.05",
+      "o3": "3",
+      "so2": "70.45",
+      "pm2_5": "53.85",
+      "pm10": "62.35",
+      "us-epa-index": "3",
+      "gb-defra-index": "3"
+    },
+    "wind_speed": 10,
+    "wind_degree": 194,
+    "wind_dir": "SSW",
+    "pressure": 995,
+    "precip": 0.1,
+    "humidity": 100,
+    "cloudcover": 100,
+    "feelslike": -2,
+    "uv_index": 0,
+    "visibility": 1,
+    "is_day": "yes"
+  }
+}
+
+4) Результаты интеграции:
+[
+  {
+    "source": "OpenWeatherMap",
+    "normalized": {
+      "timestamp": "2026-02-13T12:51:37.000Z",
+      "location": {
+        "city": "Москва",
+        "country": "RU",
+        "latitude": 55.7522,
+        "longitude": 37.6156
+      },
+      "temperature": {
+        "current": 1.3,
+        "feels_like": -1.8,
+        "min": 1.2,
+        "max": 1.3
+      },
+      "conditions": {
+        "main": "Clouds",
+        "description": "пасмурно",
+        "icon": "04d"
+      },
+      "wind": {
+        "speed": 2.82,
+        "direction": 182,
+        "gust": 8.04,
+        "direction_degrees": 182,
+        "direction_text": "Ю"
+      },
+      "humidity": 95,
+      "pressure": 997,
+      "precipitation": {
+        "probability": null
+      },
+      "visibility": 30,
+      "clouds": 100,
+      "sunrise": "2026-02-13T04:59:27.000Z",
+      "sunset": "2026-02-13T14:28:16.000Z"
+    }
+  },
+  {
+    "source": "VisualCrossing",
+    "normalized": {
+      "timestamp": "2026-02-13T12:25:00.000Z",
+      "location": {
+        "city": "Москва",
+        "country": "Россия",
+        "latitude": 55.757,
+        "longitude": 37.615
+      },
+      "temperature": {
+        "current": 2.5,
+        "feels_like": 2.5,
+        "min": -2.9,
+        "max": 1.2
+      },
+      "conditions": {
+        "main": "Пасмурная погода",
+        "description": "Пасмурная погода",
+        "icon": "cloudy"
+      },
+      "wind": {
+        "speed": 1.3,
+        "direction": 171,
+        "gust": 1.4,
+        "direction_degrees": 171,
+        "direction_text": "Ю"
+      },
+      "humidity": 87.5,
+      "pressure": 995,
+      "precipitation": {
+        "rain": 0,
+        "snow": 0,
+        "probability": 0
+      },
+      "visibility": 3,
+      "clouds": 100,
+      "sunrise": null,
+      "sunset": null
+    }
+  },
+  {
+    "source": "Weatherstack",
+    "normalized": {
+      "timestamp": "2026-02-13T11:00:00.000Z",
+      "location": {
+        "city": "Москва",
+        "country": "Россия",
+        "latitude": "55.752",
+        "longitude": "37.616"
+      },
+      "temperature": {
+        "current": 1,
+        "feels_like": -2,
+        "min": null,
+        "max": null
+      },
+      "conditions": {
+        "main": "Light Rain",
+        "description": "Light Rain, Mist",
+        "icon": "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0017_cloudy_with_light_rain.png"
+      },
+      "wind": {
+        "speed": 10,
+        "direction": 194,
+        "direction_degrees": 194,
+        "direction_text": "Ю"
+      },
+      "humidity": 100,
+      "pressure": 995,
+      "precipitation": {
+        "rain": 0.1,
+        "snow": null,
+        "probability": null
+      },
+      "visibility": 1,
+      "clouds": 100,
+      "sunrise": null,
+      "sunset": null
+    }
+  }
+]
